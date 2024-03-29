@@ -1,0 +1,216 @@
+@media (min-width: 992px) {
+    .nav-item .dropdown-menu {
+        display: block;
+        top: 120%;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .nav-item:hover .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .header-socials {
+        display: none;
+    }
+
+    .header-contact-right {
+        display: none;
+    }
+
+    /* .dropdown-menu{
+        width: 200px;
+    } */
+    .navbar-nav-md {
+        display: none;
+    }
+
+    .navbar-md {
+        display: block;
+    }
+
+    .section-padding {
+        padding: 60px 0px;
+    }
+
+    .section-heading {
+        margin-bottom: 30px;
+    }
+
+    .course-block {
+        margin-bottom: 30px;
+    }
+
+    .course-meta {
+        margin: 5px 0px 20px;
+    }
+
+    .course-footer .btn {
+        margin-left: 0px;
+    }
+
+    .about-section .about-img {
+        margin-bottom: 30px;
+    }
+
+    .video-block img {
+        opacity: .4;
+    }
+
+    .video-block .video-icon {
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        padding-top: 10px;
+        font-size: 25px;
+    }
+
+    .counter-item {
+        margin-bottom: 30px;
+    }
+    .course-btn{
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .blog-sidebar .widget .search-form [type= "submit"]{
+        position: relative;
+        top: 10px;
+    }
+    .recent-posts li{
+        display: block;
+    }
+    .widget-post-thumb{
+        margin-right: 0px;
+    }
+    .widget-post-body{
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header-contact {
+        margin-left: 0px;
+        /* border: 1px solid white; */
+        padding: 0;
+    }
+
+    .header-contact li {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+        font-family: 'Muli', sans-serif;
+    }
+
+    .header-right {
+        float: none !important;
+        text-align: center;
+        font-family: 'Muli', sans-serif;
+        margin-bottom: 10px;
+    }
+
+    .header-btn {
+        margin-left: 0px;
+    }
+
+    .header-btn a {
+        border-radius: 10px !important;
+    }
+
+    .navbar-toggler {
+        background: #fff;
+        border-radius: 0px;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .section-heading h3 {
+        font-size: 32px;
+    }
+
+    .testimonial blockquote p {
+        padding: 50px;
+    }
+
+    .testimonial blockquote p::before {
+        content: "\201C";
+        top: 0;
+        left: 40px;
+    }
+
+    .testimonial blockquote p::after {
+        content: "\201D";
+        bottom: 0;
+        right: 70px;
+    }
+
+    .about-img img{
+        margin: 20px 0px;
+    }
+    .recent-posts li{
+        display: flex;
+    }
+    .widget-post-thumb{
+        margin-right: 20px;
+    }
+    .widget-post-body{
+        margin-top: -32px;
+    }
+    .blog-pagination{
+        margin-bottom: 60px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .banner {
+        padding: 87px 0px 150px;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .banner .banner-content .btn,
+    .btn-tp {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .testimonial blockquote p {
+        padding: 50px;
+    }
+
+    .testimonial blockquote p::before {
+        content: "\201C";
+        top: 0;
+        left: 0px;
+    }
+
+    .testimonial blockquote p::after {
+        content: "\201D";
+        bottom: 0;
+        right: 30px;
+    }
+
+    .subscribe-section .subscribe-form .btn{
+        right: 0px;
+        top: 7px;
+        position: relative;
+    }
+}
